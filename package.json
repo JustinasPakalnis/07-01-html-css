@@ -4,6 +4,8 @@
   "description": "_website design prtoject_\r <br>\r ## Apie\r Site published at: bla bla bla",
   "main": "index.js",
   "scripts": {
+    "dev": "dead-server --host=localhost --port=2001",
+    "dev2": "dead-server --port=2002",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
