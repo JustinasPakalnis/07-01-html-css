@@ -24,6 +24,7 @@ Design: [Labirintas](https://dribbble.com/shots/2537184-Day-008-404-Page-Daily-U
 -   inline CSS
 -   SVG images
 -   **NO** responsive design
+-   Favicon
 
 ## 🧰 Getting Started
 
