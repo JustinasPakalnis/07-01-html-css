@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>404-Labirintas</title>
+    <style>
+        body  {
+          background-image: url("/Resource/maze.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 200px;
+          
+
+        }
+        </style>
 </head>
 <body style="background-color: rgb(112, 202, 112);">
-    <main style="background-color: whitesmoke; width: 50%;margin-top: 150px;margin-left: 25%;">
-        <div style="background-color: pink; margin-top: 0px;">
-            <div style="float:right; margin-right: 10px; margin-top: 10px"><img src="./Resource/kryziukas.png" alt="kryziukas"></div>
+    <main style="display: inline-block; width: 40%;background-color: whitesmoke;margin-top: 150px;margin-left: 30%;">
+        <div style="display: inline-block; width: 100%; margin-top: 0px;">
+                <div style="float:right; margin-right: 10px; margin-top: 10px"><img src="./Resource/kryziukas.png" alt="kryziukas"></div>
             </div>
-            <div style="background-color: yellow; margin-top: 100px;">
-              <img src="./Resource/Untitled.png" alt="Labirintas">
-                <div>
-                    <H1 style="font-family: Arial, Helvetica, sans-serif; color: Green;font-size: 10rem;">404</H1>
-                    <p style="font-family: Arial, Helvetica, sans-serif;">Looks like you are in a maze</p>
-                    <p style="font-family: Arial, Helvetica, sans-serif;">Use keyboard to control the ball to maze exit to return home</p>
-                    <a style="font-family: Arial, Helvetica, sans-serif; background-color: green ;border-style: solid; border-width: 18px; border-color:green;font-size: 25px;color: white;text-decoration: none" href="#">Go back Home</a>
+            <div style="display: inline-block; width: 100%; margin-bottom: 100px;">
+              <img style="width: 30%; float:left; margin-left: 50px; margin-top: 50px;" src="./Resource/Untitled.png" alt="Labirintas">
+                <div style="width: 50%; float: right; margin: 0; margin-top: -50px;">
+                    <h1 style="font-family: Arial, Helvetica, sans-serif; color: rgb(4, 70, 4);font-size: 9rem; margin-bottom: 20px">404</h1>
+                    <p style="font-family: Arial, Helvetica, sans-serif;font-weight: bold; color: rgb(4, 70, 4);">Looks like you are in a maze</p>
+                    <p style="font-family: Arial, Helvetica, sans-serif;width: 65%;color: grey; margin-bottom: 30px">Use keyboard to control the ball to maze exit to return home, or</p>
+                    <a style="font-family: Arial, Helvetica, sans-serif; background-color: green ;border-style: solid; border-width: 12px; border-color:green;font-size: 25px;color: white;text-decoration: none" href="#">Go back Home</a>
                 </div>
             </div>
     </main>
@@ -71,8 +82,9 @@ border-radius: 10px; kampu uzapvalinimas stadionas
 display: none; yra reikalu? elementas visiskai nematomas
 display: block; blokinis vertikalus deliojimas
 display: inline; elgiasi kaip tekstas. nereaguoja i height ir width
-display: inline-block; bloko ir inline miksas
+display: inline-block; bloko ir inline miksas !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
+float: left;    priverstinis elemento stumimas pasirinka kryptimi iki artimiausio iki elemento
+float: right;
 
 -->
