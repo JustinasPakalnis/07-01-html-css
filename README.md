@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://justinaspakalnis.github.io/07-01-html-css/
+Site published at: https://justinaspakalnis.github.io/design-maze-runner
 
 Design: [Labirintas](https://dribbble.com/shots/2537184-Day-008-404-Page-Daily-UI/attachments/9352426?mode=media)
 
